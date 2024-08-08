@@ -2,7 +2,7 @@
 org = "mevan"
 name = "bal_hello_world"
 version = "0.1.0"
-distribution = "2201.9.0"
+distribution = "2201.5.5"
 
 [build-options]
 observabilityIncluded = true
