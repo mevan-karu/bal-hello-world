@@ -5,8 +5,8 @@ type GreetingReq record  {
     string name;
 };
 
-configurable string choreoApiKey = ?;
-configurable string serviceUrl = ?;
+configurable string choreoApiKey = "";
+configurable string serviceUrl = "";
 
 http:Client greetingClient = check new(serviceUrl);
 
