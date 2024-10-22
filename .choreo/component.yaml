@@ -29,8 +29,8 @@ dependencies:
   # +optional Defines the service references from the Internal Marketplace.
   serviceReferences:
     # +required Name of the service reference.
-    - name: choreo:///mevanchoreo/api-key-test/greet-service/803f0/v1/ORGANIZATION
-      connectionConfig: 01ef907a-a592-119e-97f4-f96186e87b32
+    - name: choreo:///mevanchoreo/api-key-test/greeting-service/803f0/v1/ORGANIZATION
+      connectionConfig: 01ef908c-81d7-1cf6-999b-f9b37cad549d
       env:
         # +required Key name of the connection configuration.
         - from: ServiceURL
