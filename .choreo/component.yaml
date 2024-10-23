@@ -30,7 +30,7 @@ dependencies:
   serviceReferences:
     # +required Name of the service reference.
     - name: choreo:///mevanchoreo/api-key-test/greeting-service/803f0/v1/ORGANIZATION
-      connectionConfig: 01ef908d-57d2-1dce-824d-98b802256a65
+      connectionConfig: 01ef90f3-4329-12f8-ba03-8fea4d81ad31
       env:
         # +required Key name of the connection configuration.
         - from: ServiceURL
