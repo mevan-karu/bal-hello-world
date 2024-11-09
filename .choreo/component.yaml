@@ -23,4 +23,14 @@ endpoints:
     networkVisibilities: 
       - Public
       - Organization
-      
+dependencies:
+    serviceReferences:
+    - name: choreo:///mevantestorg/api-key/greeting-service/803f0/v1/ORGANIZATION
+      connectionConfig: 01ef9e9e-22f0-1c36-9fab-f2f991a5534d
+      env:
+        # +required Key name of the connection configuration.
+        - from: ServiceURL
+          # +required Environment variable injected into the container.
+          to: BAL_CONFIG_VAR_SERVICEURL
+        - from: ChoreoAPIKey
+          to: BAL_CONFIG_VAR_CHOREOAPIKEY
