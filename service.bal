@@ -1,7 +1,12 @@
 import ballerina/http;
 import ballerina/log;
 
-configurable map<string> orgConfigs = ?;
+type OrgConfig record {
+    string orgName;
+    string orgId;
+};
+
+configurable map<OrgConfig> orgConfigs = ?;
 
 service / on new http:Listener(9090) {
 
